@@ -1,0 +1,29 @@
+Form::open(array('url'=>'register'))
+Form::label('first_name','First Name:')
+Form::hidden('id','id')
+Form::text('first_name',null,array())
+Form::textarea('body',null,array())
+Form::passowrd('passowerd',array())
+
+Form::checkbox('cricket','1',true)
+
+
+Form::radio('my_color','red',tru)}}Red
+Form::radio('my_color','green')}}Green
+Form::radio('my_color','blue')}}Blue
+
+
+Form::eamil('email','kaleemkhan101@yahoo.com')
+Form::selecte('your_color', array(
+'white'=>'White',
+'purple'=>'Purple',
+'pink'=>'Pink)'red')
+
+
+Form::file('avatar')
+
+Form::image(
+Form::submit('Save')
+Form::reset('Clear')
+Form::button('Smile')
+Form::image(asset('my/image.gif', 'submit')) }}
